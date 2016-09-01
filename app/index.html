@@ -31,14 +31,20 @@
     <!-- Add your site or application content here -->
     <!-- navbar -->
     <div class="navbar-fixed">
-      <nav>
+      <nav style="background-color: #fff;">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Cappsindia</a>
+            <a href="#" class="brand-logo"><img src="images/capps-logo.png" style="width: 28%; margin-top:2%;"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a href="" class="text-color">Home</a></li>
-              <li><a href="" class="text-color">Home</a></li>
+              <li><a href="#/" class="text-color">HOME</a></li>
+              <li><a href="#/approach" class="text-color">OUR APPROACH</a></li>
+              <li><a href="#/team" class="text-color">TEAM</a></li>
+              <li><a href="#/propose" class="text-color">WHAT WE PROPOSE</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+              <li><a href="#/" class="text-color">HOME</a></li>
+              <li><a href="#/approach" class="text-color">OUR APPROACH</a></li>
               <li><a href="" class="text-color">Home</a></li>
               <li><a href="" class="text-color">Home</a></li>
             </ul>
@@ -48,9 +54,7 @@
     </div>
 
     <!-- views -->
-    <div class="container">
-      <div class="ng-view"></div>
-    </div>
+    <div class="ng-view"></div>
 
     <!-- footer -->
     <footer class="page-footer">
@@ -105,12 +109,11 @@
     <!-- typed.js -->
     <script src="bower_components/typed.js/js/typed.js"></script>
     <!-- dom javascript -->
-    <script src="scripts/main.js"></script>
+
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/main.js"></script>
         <!-- endbuild -->
 </body>
 </html>

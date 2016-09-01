@@ -20,10 +20,20 @@ angular
         controller: '',
         controllerAs: ''
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/approach', {
+        templateUrl: 'views/approach.html',
+        controller: '',
+        controllerAs: ''
+      })
+      .when('/team', {
+        templateUrl: 'views/team.html',
+        controller: '',
+        controllerAs: ''
+      })
+      .when('/propose', {
+        templateUrl: 'views/propose.html',
+        controller: '',
+        controllerAs: ''
       })
       .otherwise({
         redirectTo: '/'
