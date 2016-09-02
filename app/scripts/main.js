@@ -10,7 +10,8 @@ $(document).ready(function() {
 // typed.js
 $(function(){
     $(".element").typed({
-        strings: ["CENTER FOR ADVOCACY<br> ^1000 AND PUBLIC POLICY STUDIES."],
+        strings: ["CENTER FOR ADVOCACY ^1000 <br> AND PUBLIC POLICY STUDIES."],
+        contentType: 'html',
         typeSpeed: 0,
         backSpeed: 2,
         loop: false,
@@ -18,3 +19,7 @@ $(function(){
         cursorChar: "|"
     });
 });
+
+// wowjs
+new WOW().init();
+
