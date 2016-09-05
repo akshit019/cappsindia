@@ -132,6 +132,15 @@ body {
   margin-bottom: 5%;
 }
 
+.designation-1{
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.img-style{
+  border: 3px solid #bdbdbd;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {

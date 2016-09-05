@@ -22,6 +22,9 @@
     <!-- wow css -->
     <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
 
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -37,7 +40,7 @@
       <nav style="background-color: #fff;">
         <div class="container">
           <div class="nav-wrapper">
-            <a href="#" class="brand-logo"><img src="images/capps-logo.png" style="width: 28%; margin-top:2%;"></a>
+            <a href="#/" class="brand-logo"><img src="images/capps-logo.png" style="width: 28%; margin-top:2%;"></a>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="#/" class="text-color">HOME</a></li>
@@ -57,7 +60,7 @@
     </div>
 
     <!-- views -->
-    <div class="ng-view"></div>
+    <div class="ng-view" autoscroll="true"></div>
 
     <!-- footer -->
     <footer class="page-footer" style="background-color:#9e9e9e">
@@ -122,5 +125,8 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/main.js"></script>
         <!-- endbuild -->
+
+        <script src="scripts/controllers.js"></script>
+
 </body>
 </html>

@@ -17,7 +17,7 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/home.html',
-        controller: '',
+        controller: 'Homecontroller',
         controllerAs: ''
       })
       .when('/approach', {
