@@ -30,11 +30,16 @@ angular
         controller: '',
         controllerAs: ''
       })
-      .when('/propose', {
-        templateUrl: 'views/propose.html',
+      .when('/publications', {
+        templateUrl: 'views/publications.html',
         controller: '',
         controllerAs: ''
       })
+      // .when('/blog', {
+      //   templateUrl: 'https://www.cappsindiablog.wordpress.com',
+      //   controller: '',
+      //   controllerAs: ''
+      // })
       .otherwise({
         redirectTo: '/'
       });

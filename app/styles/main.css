@@ -74,8 +74,8 @@ body {
 .typed-cursor{
     opacity: 1;
     display: inline-block;
-    font-size: 45px;
-    color: #fff;
+    font-size: 50px;
+    color: #1e88e5;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
@@ -99,18 +99,18 @@ body {
 .element{
   display: inline-block;
   position: relative;
-  font-size: 40px;
+  font-size: 45px;
   width: auto;
-  color: #fff;
+  color: #1e88e5;
   font-family: 'Playfair Display SC', serif;
   font-weight: bold;
   letter-spacing: 0.9;
-  line-height: 38px;
-  margin-top: 11%;
+  line-height: 45px;
+  margin-top: 15%;
 }
 
 .header{
-  background: url(../images/home-2.jpg);
+  background: url(../images/home.jpg);
   background-size: cover;
   background-position: center;
   background-position: fixed;
@@ -130,6 +130,7 @@ body {
   margin-top: 2%;
   font-size: 30px;
   margin-bottom: 5%;
+  color: #1565c0;
 }
 
 .designation-1{
@@ -138,7 +139,17 @@ body {
 }
 
 .img-style{
-  border: 3px solid #bdbdbd;
+  border: 3px solid #90caf9;
+}
+
+.tab-color{
+  color: #1565c0;
+}
+
+#preloader{
+  margin-left: 46%;
+  margin-bottom: 30%;
+  margin-top: 21%;
 }
 
 /* Responsive: Portrait tablets and up */
